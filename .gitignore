@@ -1,0 +1,5 @@
+objs
+libftprintf.a
+.base
+.bonus
+*.DS_Store
