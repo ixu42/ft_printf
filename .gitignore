@@ -1,5 +1,5 @@
-objs
-libftprintf.a
+*.o
+*.a
 .base
 .bonus
 *.DS_Store
