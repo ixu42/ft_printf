@@ -86,7 +86,7 @@ $(OBJS_DIR)%.o: $(SRCS_BONUS_DIR)%.c
 
 clean:
 	@rm -rf $(OBJS_DIR)
-	@$(MAKE) -C $(LIBFT_DIR) fclean
+	@$(MAKE) -s -C $(LIBFT_DIR) fclean
 	@rm -f .bonus
 	@rm -f .base
 	@echo "$(COLOR_BLUE)$(OBJS_DIR) directory and object files removed$(COLOR_END)"
